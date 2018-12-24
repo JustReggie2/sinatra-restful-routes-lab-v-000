@@ -1,4 +1,4 @@
-<form action="/recipes" method="post">
+<form action="/recipes/<%= @recipe.id %>" method="post">
   <p><label for="name">Recipe Name:</label>
   <input type="text" name="name" id="name"></p>
   <p><label for="ingredients">Recipe Ingredients:</label>
